@@ -54,8 +54,8 @@ def welcome_screen():
     image1 = Image.new('1', (disp.width, disp.height), "WHITE")
     draw = ImageDraw.Draw(image1)
     font10 = ImageFont.truetype('Font.ttf', 13)
-    draw.text((0, 0), "Welcome to", font = font10, fill = 0)
-    draw.text((0, 20), "Smart Aquarium", font = font10, fill = 0)
+    draw.text((0, 0), "ma naen sind", font = font10, fill = 0)
+    draw.text((0, 20), "praegu", font = font10, fill = 0)
     disp.ShowImage(disp.getbuffer(image1))
     time.sleep(3)
 
